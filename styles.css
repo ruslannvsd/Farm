@@ -4,6 +4,8 @@ body {
   padding: 20px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 header {
   background-image: url('resources/img/page-elements/header-bg.jpg');
   background-size: cover;
@@ -38,7 +40,7 @@ p {
 
 nav {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 78, 17, 0.6);
   padding: 1%;
 }
 
@@ -54,10 +56,9 @@ nav li {
 }
 
 nav a {
-  font-family: 'Trebuchet MS';
+  font-family: 'Architecs Daugther';
   color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
   text-decoration: none;
 }
 
