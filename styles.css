@@ -1,7 +1,11 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #b7b7b7;
+  background-image: url('resources/img/page-elements/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 20px;
+  color: #999999;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
@@ -13,7 +17,7 @@ header {
   background-repeat: no-repeat;
   padding: 30px;
   font-size: 25px;
-  color: #ffffff;
+  color: #d5d5d5;
   text-align: center;
 }
 
@@ -39,10 +43,12 @@ p {
 }
 
 .feature-section {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #fff; 
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #c5cbbd;
   padding: 20px;
-  text-align: center;   
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .feature-section p {
@@ -68,7 +74,7 @@ nav li {
 
 nav a {
   font-family: 'Trebuchet MS';
-  color: #ffffff;
+  color: #d8d8d8;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
@@ -86,7 +92,7 @@ nav a {
 }
 
 footer {
-  background-color: #333;
+  background-color: #0b1018;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -121,7 +127,8 @@ button[type="submit"] {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .vertical-form {
@@ -131,7 +138,16 @@ button[type="submit"] {
 .map-container {
   width: 100%;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.map-wrapper {
+  max-width: 100%;
+  width: 100%;
+}
+
 
 @media screen and (min-width: 480px) {
   .vertical-form {
@@ -147,7 +163,7 @@ button[type="submit"] {
 
 .picture-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -169,7 +185,7 @@ button[type="submit"] {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7); 
+  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -177,6 +193,6 @@ button[type="submit"] {
 
 @media (max-width: 767px) {
   .picture-grid {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 }
