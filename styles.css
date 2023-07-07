@@ -21,18 +21,16 @@ header {
   text-align: center;
 }
 
-
-.hero-section {
+.home-upper-section {
   display: flex;
+  color: aliceblue;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-h1,
-h2,
-p {
+h1, h2, p {
   margin: 0;
   padding: 0;
 }
@@ -47,8 +45,7 @@ p {
   color: #c5cbbd;
   padding: 20px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .feature-section p {
@@ -113,8 +110,7 @@ form {
   width: 100px;
 }
 
-.form-row input,
-.form-row textarea {
+.form-row input, .form-row textarea {
   flex: 1;
   width: 100%;
   box-sizing: border-box;
@@ -148,7 +144,6 @@ button[type="submit"] {
   width: 100%;
 }
 
-
 @media screen and (min-width: 480px) {
   .vertical-form {
     width: 70%;
@@ -159,7 +154,6 @@ button[type="submit"] {
     padding: 0;
   }
 }
-
 
 .picture-grid {
   display: grid;
@@ -194,5 +188,27 @@ button[type="submit"] {
 @media (max-width: 767px) {
   .picture-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+.animal {
+  width: 30.33%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.animal img {
+  max-width: 100%;
+}
+
+.animal h3, .animal p {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .animal {
+    width: 100%;
   }
 }
