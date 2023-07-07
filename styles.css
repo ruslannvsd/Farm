@@ -30,7 +30,9 @@ header {
   text-align: center;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   margin: 0;
   padding: 0;
 }
@@ -110,7 +112,8 @@ form {
   width: 100px;
 }
 
-.form-row input, .form-row textarea {
+.form-row input,
+.form-row textarea {
   flex: 1;
   width: 100%;
   box-sizing: border-box;
@@ -150,8 +153,7 @@ button[type="submit"] {
   }
 
   .map-container {
-    width: 40%;
-    padding: 0;
+    box-sizing: border-box;
   }
 }
 
@@ -203,7 +205,8 @@ button[type="submit"] {
   max-width: 100%;
 }
 
-.animal h3, .animal p {
+.animal h3,
+.animal p {
   color: #fff;
 }
 
