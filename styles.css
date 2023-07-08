@@ -33,8 +33,8 @@ header {
 h1,
 h2,
 p {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 .container {
@@ -44,11 +44,51 @@ p {
 
 .feature-section {
   background-color: rgba(0, 0, 0, 0.3);
-  color: #c5cbbd;
+  color: #fff; 
   padding: 20px;
-  text-align: center;
-  margin: 0 auto;
+  text-align: center;   
 }
+
+.feature-section h3 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cafe-shop-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cafe-shop-item-image {
+  flex: 0 0 25%;
+  margin-right: 20px;
+}
+
+.cafe-shop-item-image img {
+  max-width: 100%;
+}
+
+.cafe-shop-item-content {
+  flex: 1;
+}
+
+.cafe-shop-item-content h3,
+.cafe-shop-item-content p {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .cafe-shop-item {
+    flex-direction: column;
+  }
+
+  .cafe-shop-item-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
 
 .feature-section p {
   margin-bottom: 20px;
@@ -215,3 +255,9 @@ button[type="submit"] {
     width: 100%;
   }
 }
+
+.play-attraction img,
+  .walk img {
+    max-width: 100%;
+    height: auto;
+  }
