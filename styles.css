@@ -8,6 +8,8 @@ body {
   color: #999999;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Handlee&display=swap');
+
 header {
   background-image: url('resources/img/page-elements/header-bg.jpg');
   background-size: cover;
@@ -53,6 +55,14 @@ p {
   color: #fff; 
   padding: 20px;
   text-align: center;   
+}
+
+.visitor-section {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff; 
+  padding: 20px;
+  width: fit-content;
+  margin: 0;
 }
 
 .feature-section h3 {
@@ -124,7 +134,7 @@ nav li {
 }
 
 nav a {
-  font-family: 'Trebuchet MS';
+  font-family: 'Handlee', cursive;
   color: #d8d8d8;
   font-size: 16px;
   font-weight: bold;
@@ -154,6 +164,18 @@ nav a {
   color: #fff;
   font-size: 13px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .compressed-nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .compressed-nav li:last-child {
+    grid-column: 1 / span 3;
+  }
 }
 
 @media (max-width: 768px) {
@@ -223,7 +245,7 @@ button[type="submit"] {
   width: 100%;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .vertical-form {
     width: 70%;
   }
