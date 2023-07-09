@@ -106,6 +106,12 @@ nav {
   padding: 1%;
 }
 
+.footer-nav a{
+  text-align: center;
+  font-size: 13pt;
+  padding: 1%;
+}
+
 nav ul {
   display: inline;
   padding: 0;
@@ -122,6 +128,31 @@ nav a {
   color: #d8d8d8;
   font-size: 16px;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.compressed-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.compressed-nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.compressed-nav li {
+  margin: 0 10px;
+}
+
+.compressed-nav a {
+  color: #fff;
+  font-size: 13px;
   text-decoration: none;
 }
 
