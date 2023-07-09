@@ -1,24 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Walter+Turncoat&family=Ysabeau+Office:wght@1000&display=swap');
+
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-image: url('resources/img/page-elements/bg.jpg');
+  font-family: 'Signika Negative', sans-serif;
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
   color: #999999;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Handlee&display=swap');
-
 header {
   background-image: url('resources/img/page-elements/header-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 3px;
+  padding-top: 0.001%;
+  padding-bottom: 3px;
   font-size: 25px;
   color: #d5d5d5;
   text-align: center;
+}
+
+h1 {
+  font-family: 'Ysabeau Office', sans-serif;
 }
 
 a {
@@ -52,14 +58,14 @@ p {
 
 .feature-section {
   background-color: rgba(0, 0, 0, 0.3);
-  color: #fff; 
+  color: #fff;
   padding: 20px;
-  text-align: center;   
+  text-align: center;
 }
 
 .visitor-section {
   background-color: rgba(0, 0, 0, 0.4);
-  color: #fff; 
+  color: #fff;
   padding: 20px;
   width: fit-content;
   margin: 0;
@@ -116,7 +122,7 @@ nav {
   padding: 1%;
 }
 
-.footer-nav a{
+.footer-nav a {
   text-align: center;
   font-size: 13pt;
   padding: 1%;
@@ -134,9 +140,9 @@ nav li {
 }
 
 nav a {
-  font-family: 'Handlee', cursive;
+  font-family: 'Walter Turncoat', cursive;
   color: #d8d8d8;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -323,9 +329,30 @@ button[type="submit"] {
     width: 100%;
   }
 }
+.play-attraction {
+  color: #fff;
+  width: fit-content;
+  margin: 0;
+}
+
+.play-attraction-1 {
+  background-color: rgba(97, 129, 0, 0.4);
+}
+
+.play-attraction-2 {
+  background-color: rgba(0, 136, 48, 0.4);
+}
+
+.play-attraction-3 {
+  background-color: rgba(0, 76, 130, 0.4);
+}
+
+.play-attraction-4 {
+  background-color: rgba(81, 0, 125, 0.4);
+}
 
 .play-attraction img,
-  .walk img {
-    max-width: 100%;
-    height: auto;
-  }
+.walk img {
+  max-width: 100%;
+  height: auto;
+}
