@@ -16,7 +16,8 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 0.001%;
+  padding-top: 1px;
+  margin-top: 0;
   padding-bottom: 3px;
   font-size: 25px;
   color: #d5d5d5;
