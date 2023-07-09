@@ -8,14 +8,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
-  color: #999999;
 }
 
 header {
-  background-image: url('resources/img/page-elements/header-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url('resources/img/page-elements/header-bg.jpg') center/cover no-repeat;
   padding-top: 1px;
   margin-top: 0;
   padding-bottom: 3px;
@@ -49,9 +45,7 @@ h1,
 h2,
 p {
   margin-bottom: 0px;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 10px;
+  padding: 0 5% 10px;
 }
 
 .container {
@@ -156,6 +150,11 @@ nav a {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section-title {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .compressed-nav ul {
