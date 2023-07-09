@@ -152,6 +152,7 @@ nav a {
 
 .compressed-nav {
   display: flex;
+  background-image: url('resources/img/page-elements/header-bg.jpg');
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
