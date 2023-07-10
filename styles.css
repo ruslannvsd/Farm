@@ -324,6 +324,7 @@ button[type="submit"] {
     width: 100%;
   }
 }
+
 .play-attraction {
   color: #fff;
   width: fit-content;
@@ -359,4 +360,3 @@ button[type="submit"] {
   max-width: 100%;
   height: auto;
 }
-
