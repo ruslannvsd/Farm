@@ -14,8 +14,6 @@ body {
 header {
   background: url('resources/img/page-elements/header-bg.jpg') center/cover no-repeat;
   padding-top: 1px;
-  margin-top: 0;
-  padding-bottom: 3px;
   font-size: 25px;
   color: #d5d5d5;
   text-align: center;
@@ -117,13 +115,7 @@ p {
 nav {
   text-align: center;
   background-color: rgba(13, 32, 17, 0.6);
-  padding: 1%;
-}
-
-.footer-nav a {
-  text-align: center;
-  font-size: 17pt;
-  padding: 1%;
+  padding: 0.5%;
 }
 
 nav ul {
@@ -162,7 +154,7 @@ nav a {
   display: flex;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 10px;
 }
 
 .compressed-nav li {
