@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
+  font-size: 20px;
 }
 
 header {
@@ -121,7 +122,7 @@ nav {
 
 .footer-nav a {
   text-align: center;
-  font-size: 13pt;
+  font-size: 17pt;
   padding: 1%;
 }
 
@@ -170,7 +171,7 @@ nav a {
 
 .compressed-nav a {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -358,7 +359,7 @@ button[type="submit"] {
 }
 
 .page-item-6 {
-  background-color: rgba(49, 0, 129, 0.164);
+  background-color: rgba(82, 0, 129, 0.164);
 }
 
 .play-attraction img,
