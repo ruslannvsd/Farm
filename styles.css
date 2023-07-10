@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Walter+Turncoat&family=Ysabeau+Office:wght@1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Ysabeau+Office:wght@1000&display=swap');
 
 body {
   background-image: url('resources/img/page-elements/bg.jpg');
-  font-family: 'Signika Negative', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -98,9 +98,6 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    font-family: 'Signika Negative', sans-serif;
-  }
   .cafe-shop-item {
     flex-direction: column;
   }
