@@ -337,20 +337,28 @@ button[type="submit"] {
   margin: 0;
 }
 
-.play-attraction-1 {
-  background-color: rgba(97, 129, 0, 0.4);
+.page-item-1 {
+  background-color: rgba(97, 129, 0, 0.164);
 }
 
-.play-attraction-2 {
-  background-color: rgba(0, 136, 48, 0.4);
+.page-item-2 {
+  background-color: rgba(39, 129, 0, 0.164);
 }
 
-.play-attraction-3 {
-  background-color: rgba(0, 76, 130, 0.4);
+.page-item-3 {
+  background-color: rgba(0, 129, 39, 0.164);
 }
 
-.play-attraction-4 {
-  background-color: rgba(81, 0, 125, 0.4);
+.page-item-4 {
+  background-color: rgba(0, 120, 129, 0.164);
+}
+
+.page-item-5 {
+  background-color: rgba(0, 67, 129, 0.164);
+}
+
+.page-item-6 {
+  background-color: rgba(49, 0, 129, 0.164);
 }
 
 .play-attraction img,
@@ -358,3 +366,4 @@ button[type="submit"] {
   max-width: 100%;
   height: auto;
 }
+
