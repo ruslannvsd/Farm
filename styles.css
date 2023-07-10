@@ -98,6 +98,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    font-family: 'Prompt', sans-serif;
+  }
   .cafe-shop-item {
     flex-direction: column;
   }
