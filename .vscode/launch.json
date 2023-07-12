@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/Admin/Desktop/Glasgow%20Code%20Learning/Web%20Development/Farm/1_homepage.html",
+            "url": "file:///C:/Users/Admin/Desktop/Glasgow%20Code%20Learning/Web%20Development/Final%20Web/Web.%20Assessment%202/Farm/1_homepage.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
