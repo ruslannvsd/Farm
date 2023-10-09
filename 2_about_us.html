@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Small Farm - About Us</title>
   <link rel="stylesheet" href="styles.css">
+  <script>
+    // JavaScript to change the text of the "About Us" section
+    function changeAboutUsText() {
+      document.getElementById("about-us-text").innerHTML = "We are great";
+    }
+    function updateYear() {
+      const year = new Date().getFullYear();
+      document.getElementById("copyright-year").innerText = year;
+    }
+    window.onload = function() {
+      updateYear();
+    }
+  </script>
 </head>
 
 <body>
@@ -46,6 +59,7 @@
       </p>
       <p>We invite you to join us and create unforgettable memories in the heart of the countryside. Get in touch with
         us to get more information by visiting our <a href="7_contact.html">contact page</a>.</p>
+      <button onclick="changeAboutUsText()">We are great</button>
     </section>
   </div>
   <footer>
